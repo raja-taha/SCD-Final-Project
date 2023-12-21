@@ -1,0 +1,59 @@
+<mxfile host="Electron" modified="2023-12-21T12:53:24.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="9C9AHBHsR4k3znAUYl8r" version="22.1.2" type="device">
+  <diagram name="Page-1" id="_twCRWDKML3EPxF8_jWT">
+    <mxGraphModel dx="272" dy="540" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;account:AccountManager&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;b1:BankingApp&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="40" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;a1:BankAccount&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1440" y="310" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;transaction:TransactionManager&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="915" y="310" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-17" value="1.1 : createAccount(PK101, Taha, 500)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cG5nMdqIclpMdaGIFtHB-2" target="cG5nMdqIclpMdaGIFtHB-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1160" y="84.5" as="sourcePoint" />
+            <mxPoint x="1240" y="84.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-18" value="1.3 : account created" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cG5nMdqIclpMdaGIFtHB-1" target="cG5nMdqIclpMdaGIFtHB-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1110" y="73" as="sourcePoint" />
+            <mxPoint x="1450" y="73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-19" value="2.1 : performTransaction (deposit)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.168;exitY=1.001;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="cG5nMdqIclpMdaGIFtHB-2" target="cG5nMdqIclpMdaGIFtHB-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1450" y="95" as="sourcePoint" />
+            <mxPoint x="1110" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-20" value="1.2&amp;nbsp;: createAccount(PK101, Taha, 500)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cG5nMdqIclpMdaGIFtHB-1" target="cG5nMdqIclpMdaGIFtHB-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1110" y="73" as="sourcePoint" />
+            <mxPoint x="1450" y="73" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-21" value="2.2 : deposit(PK101, 1000)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cG5nMdqIclpMdaGIFtHB-4" target="cG5nMdqIclpMdaGIFtHB-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1120" y="83" as="sourcePoint" />
+            <mxPoint x="1460" y="83" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cG5nMdqIclpMdaGIFtHB-22" value="2.3 : amount deposited" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.821;entryY=1.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cG5nMdqIclpMdaGIFtHB-4" target="cG5nMdqIclpMdaGIFtHB-2">
+          <mxGeometry x="0.4614" y="-8" width="80" relative="1" as="geometry">
+            <mxPoint x="1030" y="140" as="sourcePoint" />
+            <mxPoint x="1030" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

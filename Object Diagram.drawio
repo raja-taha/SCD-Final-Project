@@ -1,0 +1,58 @@
+<mxfile host="Electron" modified="2023-12-21T12:36:18.635Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/22.1.2 Chrome/114.0.5735.289 Electron/25.9.4 Safari/537.36" etag="XgYdZeGX_hSPG2uHJ5iA" version="22.1.2" type="device">
+  <diagram name="Page-1" id="sGcQXyNOyqRiIZYAN6Hy">
+    <mxGraphModel dx="440" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-36" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;account:AccountManager&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accountNumber = PK101&lt;br&gt;accountHolder = Taha&lt;br&gt;initialBalance = 500&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="36" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;b1:BankingApp&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;bankAccount = account&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="186" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-38" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;a1:BankAccount&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;accountNumber = PK101&lt;br&gt;accountHolder = Taha&lt;br&gt;balance = 1500&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="940" y="186" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-39" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;transaction:TransactionManager&lt;/b&gt;&lt;/p&gt;&lt;hr&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;account = a1&lt;br&gt;amount = 1000&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="370" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-40" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H9OSnI1XZnYI7yRXE7xi-37" target="H9OSnI1XZnYI7yRXE7xi-36">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1550" y="165" as="sourcePoint" />
+            <mxPoint x="1350" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1550" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-42" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H9OSnI1XZnYI7yRXE7xi-36" target="H9OSnI1XZnYI7yRXE7xi-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1090" y="135" as="sourcePoint" />
+            <mxPoint x="890" y="50" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="81" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-43" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="H9OSnI1XZnYI7yRXE7xi-39" target="H9OSnI1XZnYI7yRXE7xi-38">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1170" y="406" as="sourcePoint" />
+            <mxPoint x="1010" y="511" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1020" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H9OSnI1XZnYI7yRXE7xi-44" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="H9OSnI1XZnYI7yRXE7xi-37" target="H9OSnI1XZnYI7yRXE7xi-39">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1700" y="386" as="sourcePoint" />
+            <mxPoint x="1540" y="247" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1550" y="415" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
